@@ -1,0 +1,29 @@
+POST http://127.0.0.1:8000/api/register
+Content-Type: application/json
+
+{
+  "username": "TuftyRairu1",
+  "email": "craususrhyle1@gmail.com",
+  "password": "rairudesu"
+}
+
+###
+
+POST http://127.0.0.1:8000/api/login
+Content-Type: application/json
+
+{
+  "email": "craususrhyle1@gmail.com",
+  "password": "rairudesu"
+}
+
+###
+
+POST http://127.0.0.1:8000/api/logout
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAxOTYzMDUyLCJleHAiOjE3MDE5NjY2NTIsIm5iZiI6MTcwMTk2MzA1MiwianRpIjoidGVNcTFqa1BtRTlWZ2dSaSIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.RSo2a9wJ0qPaDXVIuLcz6YI1aSmClwvxv4qAQU4-P6Q
+###
+
+POST http://127.0.0.1:8000/api/me
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAxOTYzMDMwLCJleHAiOjE3MDE5NjY2MzAsIm5iZiI6MTcwMTk2MzAzMCwianRpIjoiZDNlTjdaTFdtYVc2QnRmViIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.jluYaJ6b03UKavxBMXsL5Z5e_CrEDCAELBovUij9Kuk
